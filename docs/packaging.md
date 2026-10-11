@@ -58,3 +58,17 @@ Dependency notices and source locations are described in
 [third-party notices](../THIRD_PARTY_NOTICES.md). Before claiming complete game
 coverage, verify the downloaded AppImage on a desktop with active hooks,
 disconnect/close, room changes and save/reload.
+
+
+## Version 0.1.0 verification (2026-10-12)
+
+- Host Arch suite: 914 passed, no skips.
+- Debian/Python 3.12 build suite: 914 passed, no skips.
+- [Main CI](https://github.com/0xAF/unepic-trainer/actions/runs/38175774849): 914 passed in 14.97s, both GUI smoke modes passed.
+- [Tag/release CI](https://github.com/0xAF/unepic-trainer/actions/runs/38175908260): 914 passed in 13.01s, offscreen/X11 checks and publication succeeded.
+- [Published release](https://github.com/0xAF/unepic-trainer/releases/tag/v0.1.0): AppImage and SHA256SUMS downloaded, checksum and GitHub digest matched; system GDB/MI and demo/normal startup/cleanup passed on Arch.
+
+Published AppImage: 74,000,888 bytes, SHA256
+`8b0732bc666d4b0bfbeba2579364c950488b08ef57ab800573404f43b3366017`.
+The local `dist/` copy is the downloaded release artifact. Actual-game attachment
+and remaining gameplay scenarios are not established by these packaging checks.

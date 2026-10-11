@@ -209,9 +209,9 @@ User authorized a public `0xAF/unepic-trainer` repository with MIT licensing, a 
 - [x] Add test/build/smoke checks and a tag-only release job using GITHUB_TOKEN.
 - [x] Exclude game artifacts, backups, raw REA exports and caches; retain curated evidence notes.
 - [x] Complete container/AppImage verification, license collection and host smoke checks.
-- [ ] Initialize Git, review staged files, create/push the public repository.
-- [ ] Push v0.1.0, verify the hosted build and downloadable release assets.
+- [x] Initialize Git, review staged files, create/push the public repository.
+- [x] Push v0.1.0, verify the hosted build and downloadable release assets.
 
 The Steam installation remains read-only. Actual-game checks and cross-distribution coverage remain limited as recorded in README/runtime notes.
 
-Distribution verification: full host suite 914 passed (9.51s); Debian/Python 3.12 suite 914 passed (10.83s), no skips. AppImage system GDB/MI, offscreen and X11/Xvfb demo/normal startup and graceful shutdown pass. Host Arch smoke checks pass. Mismatched version tags are rejected before building. Public GitHub repo exists; source/tag push and hosted release verification are pending.
+Distribution verification: full host suite 914 passed (9.51s); Debian/Python 3.12 suite 914 passed (10.83s), no skips. AppImage system GDB/MI, offscreen and X11/Xvfb demo/normal startup and graceful shutdown pass. Host Arch smoke checks pass. Mismatched version tags are rejected before building. Public GitHub repo and v0.1.0 release are published. Both hosted workflows succeeded; the downloaded AppImage matches its checksum and GitHub digest and passes host smoke checks.
