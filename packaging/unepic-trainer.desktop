@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Unepic Trainer
+Comment=Single-player trainer for the native Linux version of Unepic
+Exec=unepic-trainer
+Icon=unepic-trainer
+Terminal=false
+Categories=Game;
